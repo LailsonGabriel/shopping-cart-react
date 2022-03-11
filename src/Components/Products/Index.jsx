@@ -12,6 +12,7 @@ function Products() {
         products.map((product, index) => (
           <ProductCard
             key={index}
+            id={product.uniqueId}
             image={product.imageUrl}
             name={product.name}
             price={product.price}

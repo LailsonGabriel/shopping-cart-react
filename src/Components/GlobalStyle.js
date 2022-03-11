@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     background-color:#1F1D36;
-    font-family: monospace;
+    font-family: "Poppins";
   }
   html, body, #root {
     height: 100%;

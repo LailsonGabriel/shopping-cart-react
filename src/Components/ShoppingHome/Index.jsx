@@ -1,5 +1,6 @@
 import Products from '../Products/Index';
 import { ContainerHome } from './styles';
+import Cart from '../Cart/Index';
 
 function ShoppingHome() {
   return (
@@ -8,7 +9,7 @@ function ShoppingHome() {
         <Products />
       </div>
       <div className='cart'>
-        <h3>Carrinho</h3>
+        <Cart />
       </div>
     </ContainerHome>
   );

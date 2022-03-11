@@ -1,12 +1,12 @@
-import { GlobalStyle } from './components/GlobalStyle';
-import ShoppingHome from './components/ShoppingHome/Index';
+import { GlobalStyle } from './Components/GlobalStyle';
+import ShoppingHome from './Components/ShoppingHome/Index';
 
 function App() {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <ShoppingHome />
-    </div>
+    </>
   );
 }
 
