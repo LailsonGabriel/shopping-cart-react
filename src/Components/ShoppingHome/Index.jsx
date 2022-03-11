@@ -5,12 +5,8 @@ import Cart from '../Cart/Index';
 function ShoppingHome() {
   return (
     <ContainerHome>
-      <div className='products'>
-        <Products />
-      </div>
-      <div className='cart'>
-        <Cart />
-      </div>
+      <Products />
+      <Cart />
     </ContainerHome>
   );
 }

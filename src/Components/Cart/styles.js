@@ -2,8 +2,11 @@ import styled from 'styled-components';
 
 export const ContainerCart = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: space-around;
+  background-color: white;
+  width: 40%;
+  height: 100vh;
   flex-direction: column;
 
   .result p,
@@ -21,6 +24,7 @@ export const CartItemContainer = styled.div`
   color: black;
   padding: 5px;
   p {
+    font-size: 11px;
     margin-left: 5px;
     background-color: white;
   }
