@@ -9,6 +9,10 @@ export const ContainerCart = styled.div`
   height: 100vh;
   flex-direction: column;
 
+  .free {
+    background-color: #2ecc71;
+  }
+
   .result p,
   h1 {
     text-align: center;

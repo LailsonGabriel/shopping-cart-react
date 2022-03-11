@@ -32,4 +32,16 @@ export const ContainerProduct = styled.div`
     padding: 10px;
     border-radius: 10px;
   }
+
+  .buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+
+  .buy p {
+    cursor: pointer;
+    margin: 0px 7px;
+  }
 `;

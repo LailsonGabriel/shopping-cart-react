@@ -30,7 +30,7 @@ function Cart() {
         ))}
       <div className='result'>
         <p>Total: {convertValue(sumItemsPrice())}</p>
-        {sumItemsPrice() > 10 && <h1>Frete grátis</h1>}
+        {sumItemsPrice() > 10 && <h1 className='free'>Frete grátis</h1>}
       </div>
     </ContainerCart>
   );
