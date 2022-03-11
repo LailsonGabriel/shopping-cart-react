@@ -1,10 +1,16 @@
 import Products from '../Products/Index';
+import { ContainerHome } from './styles';
 
 function ShoppingHome() {
   return (
-    <div>
-      <Products />
-    </div>
+    <ContainerHome>
+      <div className='products'>
+        <Products />
+      </div>
+      <div className='cart'>
+        <h3>Carrinho</h3>
+      </div>
+    </ContainerHome>
   );
 }
 

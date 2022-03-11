@@ -1,11 +1,18 @@
+import { ContainerProduct } from './styles';
+
 function ProductCard({ image, name, price }) {
   return (
-    <div>
+    <ContainerProduct>
       <h4>{name}</h4>
-      <img src={image} alt='product' width='80' />
-      <p>{price / 100}</p>
+      <img src={image} alt='product' />
+      <p>
+        {(price / 100).toLocaleString('pt-br', {
+          style: 'currency',
+          currency: 'BRL',
+        })}
+      </p>
       <button type='button'>Comprar</button>
-    </div>
+    </ContainerProduct>
   );
 }
 

@@ -1,12 +1,13 @@
 import above from '../../service/above10.json';
 import below from '../../service/below10.json';
 import ProductCard from '../ProductCard/Index';
+import { ContainerProducts } from './styles';
 
 function Products() {
   const products = [...above.items, ...below.items];
 
   return (
-    <div>
+    <ContainerProducts>
       {products &&
         products.map((product, index) => (
           <ProductCard
@@ -16,7 +17,7 @@ function Products() {
             price={product.price}
           />
         ))}
-    </div>
+    </ContainerProducts>
   );
 }
 

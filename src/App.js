@@ -1,12 +1,11 @@
+import { GlobalStyle } from './components/GlobalStyle';
 import ShoppingHome from './components/ShoppingHome/Index';
 
 function App() {
   return (
     <div>
-      <div>
-        <ShoppingHome />
-      </div>
-      <div>Carrinho</div>
+      <GlobalStyle />
+      <ShoppingHome />
     </div>
   );
 }
