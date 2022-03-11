@@ -8,8 +8,13 @@ function Products() {
   return (
     <div>
       {products &&
-        products.map(({ imageUrl, name, price }) => (
-          <ProductCard key={name} image={imageUrl} name={name} price={price} />
+        products.map((product, index) => (
+          <ProductCard
+            key={index}
+            image={product.imageUrl}
+            name={product.name}
+            price={product.price}
+          />
         ))}
     </div>
   );

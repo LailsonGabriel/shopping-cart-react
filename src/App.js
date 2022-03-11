@@ -1,7 +1,12 @@
+import ShoppingHome from './components/ShoppingHome/Index';
+
 function App() {
   return (
     <div>
-      <h1>Shopping Cart</h1>
+      <div>
+        <ShoppingHome />
+      </div>
+      <div>Carrinho</div>
     </div>
   );
 }
